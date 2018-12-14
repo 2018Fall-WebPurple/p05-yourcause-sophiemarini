@@ -1,0 +1,117 @@
+/*
+*Sophie Marini
+*Due Date
+*Rhino
+*/
+
+/*The universal selector*/
+
+*{ margin:0;
+padding:0;
+
+}
+header{
+    padding: 15px 0px;
+        border-bottom: 3px solid black;
+    color:black;
+}
+/* Adding a border tag adds a line in your page used to break up the page */
+
+body {
+background-color:lightgray
+} 
+
+h1 {
+    font-family:sans-serif;
+    font-size: 175%;
+    text-align:  center;  
+    float: center;}
+h2{
+
+    font-family:fantasy;
+    color: darkblue;
+    
+}
+#rhino1 {float:left;
+    padding:0px;
+    margin:20px;
+     border: 2px dashed black;
+}
+
+
+#firstp {}
+
+
+p{
+    padding:15px;
+/* Adding padding to tags allows there to be space surrounding the material and to make the web page look neater and more put together*/
+}
+#photo1 {
+    float:left;
+    padding: 0px;
+    margin: 20px;
+    width: 200px; height: 150px;
+    border: 2px solid black;
+    
+}
+
+#photo2 {
+    float:left;
+    padding: 0px;
+    margin: 20px;
+    width: 155px; height: 150px;
+     border: 2px solid black;
+}
+
+#photo3 {
+    float:left;
+    padding: 0px;
+    margin: 20px;
+    width: 200px; height: 150px;
+     border: 2px solid black;
+}
+
+#photo4 {
+    float:left;
+    padding: 0px;
+    margin: 20px;
+    width: 200px; height: 150px;
+     border: 2px solid black;
+}
+
+#photo5 {
+    float:left;
+    padding: 0px;
+    margin: 20px;
+    width: 200px; height: 150px;
+     border: 2px solid black;
+}
+
+#photo6 {
+    padding: 0px;
+    margin: 20px;
+    width: 250px; height:150px;
+    float: right;
+     border: 2px solid black;
+}
+/* Each photo and tag needs to have its own section in the css to be able to customize the fonts, size, padding etc*/
+
+footer {
+    padding: 15px 0px;
+    color:black;
+    font-family:sans-serif;
+    font-size: 12px;
+    border-top: 3px solid black;
+    margin: 50px;
+}
+main {
+    /* The font family lets you choose the font of each section of the page*/
+    font-family: sans-serif;
+    margin: 50px;
+}
+h5 {
+    float: right;
+}
+ul {
+    margin-left: 50px;
+}
